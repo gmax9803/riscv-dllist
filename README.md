@@ -9,7 +9,7 @@
 ## Report Document
 The writeup/report doc can be found [here](https://docs.google.com/document/d/1293LL0FaZAJSEW8N8eSIITY0hWvZnir-zDqKiwcr7Mw/edit?usp=sharing).
 
-## Submitting:
+## Submitting
 
 1) You should include all the files in a .zip file. These will include:
 
