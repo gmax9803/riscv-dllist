@@ -4,6 +4,7 @@
 - Max Graves (mgraves4)
 - Aaron Lewis (alewis25)
 - Sam Monterola (smontero)
+- Charlie Gussen (cgussen)
 
 ## Report Document
 The writeup/report doc can be found [here](https://docs.google.com/document/d/1293LL0FaZAJSEW8N8eSIITY0hWvZnir-zDqKiwcr7Mw/edit?usp=sharing).
