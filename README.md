@@ -7,7 +7,7 @@
 - Charlie Gussen (cgussen)
 
 ## Useful Links
-- [writeup/report](https://docs.google.com/document/d/1293LL0FaZAJSEW8N8eSIITY0hWvZnir-zDqKiwcr7Mw/edit?usp=sharing).
+- [writeup/report](https://docs.google.com/document/d/1293LL0FaZAJSEW8N8eSIITY0hWvZnir-zDqKiwcr7Mw/edit?usp=sharing)
 - [RISC-V Interpreter](https://www.cs.cornell.edu/courses/cs3410/2020sp/riscv/interpreter/) 
 
 ## Submitting
