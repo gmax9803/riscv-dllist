@@ -56,7 +56,7 @@ jalr x0, x1, 0          # jump and link back to main
 ##########################################
 FREE_DLLIST:
 
-# Must clear the memory pointed to by x12 (24 bytes)
+# Must clear the memory pointed to by x12 (20 bytes)
 sw x0, 0(x12)           # Clears bytes 0-3
 sw x0, 4(x12)           # Clears bytes 4-7
 sw x0, 8(x12)           # Clears bytes 8-11
