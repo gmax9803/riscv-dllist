@@ -56,7 +56,7 @@ ELSE:
 
 # Iterate through the list to find the next node location
 # Get the location of the head nodr from head_ptr
-lw x28, 0(x18)	# sll_node* curr_ptr = the_list->head_node;
+lw x28, 0(x18)          # sll_node* curr_ptr = the_list->head_node;
 
 # Develop the while loop
 WHILE:
@@ -68,6 +68,8 @@ beq x29, x0, END_WHILE	# Exit the while loop if curr_ptr->next_node == NULL
 # curr_ptr = curr_ptr->next_node;
 add x28, x29, x0		# Set x28 to x29
 lw x29, 8(x28)			# Load the next
+
+sw x28, 4(x18)          # the_list->tail_node = made_node
 
 beq x0, x0, WHILE
 
@@ -98,7 +100,7 @@ sw x28, 4(x29)
 # Clear x7, decrement  y--, and branch back to BEGIN_FOR
 END_IF:
 add x7, x0, x0   # Clear x7 since it is about to go out of scope
-add x29, x0, x0  ###### FIX - Step 9.4 - Clear x29 since it is about to go out of scope
+add x29, x0, x0  ###### FIX - Clear x29 since it is about to go out of scope
 
 ###############################################################
 #### THE CHANGE FOR ENTERING THE END OF THE LIST ENDS HERE ####
