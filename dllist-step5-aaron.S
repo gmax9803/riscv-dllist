@@ -93,6 +93,7 @@ addi x19, x19, -1      # y--;
 beq x0, x0, BEGIN_FOR # Go back to the beginning of the loop
 
 END_FOR:
+add x19, x0, x0
 add x6, x0, x0
 
 #################################
@@ -100,7 +101,7 @@ add x6, x0, x0
 #################################
 
 add x12, x18, x0        # x12 = &the_list (x12 = address of the_list)
-addi x13, x0, -1         # x13 = 3 (value to be deleted from dllist)
+addi x13, x0, 2         # x13 = 2 (value to be deleted from dllist)
 jal x1, DELETE_NODE     # free(the_list)
 add x1, x0, x0          # empty x1 since function has returned
 add x13, x0, x0         # empty x13
@@ -262,6 +263,15 @@ END_NULL_IF:
 
 beq x0, x0, DELETE_NODE_LOOP
 END_DELETE_NODE_LOOP:
+
+add x5, x0, x0
+add x6, x0, x0
+add x7, x0, x0
+add x28, x0, x0
+add x29, x0, x0
+add x30, x0, x0
+add x31, x0, x0
+
 jalr x0, x1, 0
 
 END:
