@@ -65,8 +65,6 @@ beq x29, x0, END_WHILE	# Exit the while loop if curr_ptr->next_node == NULL
 add x28, x29, x0		# Set x28 to x29
 lw x29, 8(x28)			# Load the next
 
-sw x28, 4(x18)          # the_list->tail_node = made_node
-
 beq x0, x0, WHILE
 
 END_WHILE:
