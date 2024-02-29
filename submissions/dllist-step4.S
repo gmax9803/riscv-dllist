@@ -86,6 +86,8 @@ sw x19, 0(x29)
 sw x29, 8(x28)
 sw x28, 4(x29)
 
+sw x29, 4(x18)          # the_list->tail_node = made_node
+
 # Clear x7, decrement  y--, and branch back to BEGIN_FOR
 END_IF:
 add x7, x0, x0   # Clear x7 since it is about to go out of scope
