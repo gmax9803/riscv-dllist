@@ -6,14 +6,6 @@
 - Sam Monterola (smontero)
 - Charlie Gussen (cgussen)
 
-## Useful Links
-- [Writeup/Report](https://docs.google.com/document/d/1293LL0FaZAJSEW8N8eSIITY0hWvZnir-zDqKiwcr7Mw/edit?usp=sharing)
-- [Assignment Page](https://github.com/mmorri22/cse30321/blob/main/homeworks/homework04/Homework%2004.ipynb)
-- [RISC-V Interpreter](https://www.cs.cornell.edu/courses/cs3410/2020sp/riscv/interpreter/)
-
-- In-Class Solution: [sllist.S](https://raw.githubusercontent.com/mmorri22/cse30321/main/inclass-sols/lec10/sllist_step7.S)
-- [dllist.c](https://raw.githubusercontent.com/mmorri22/cse30321/main/inclass/lec11/code/dllist.c)
-
 ## Submitting
 
 1) You should include all the files in a .zip file. These will include:
