@@ -248,12 +248,20 @@ beq x0, x0, END_DELETE_IF
 
 END_DELETE_IF:
 
+add x31, x0, x0
+add x30, x0, x0
+add x29, x0, x0
+add x28, x0, x0
+
 sw x0, 0(x7)
 sw x0, 4(x7)
 sw x0, 8(x7)
 sw x0, 12(x7)
 
 END_VALUE_IF:
+
+add x5, x0, x0
+add x6, x0, x0
 
 NULL_IF:
 beq x7, x0, END_NULL_IF
@@ -264,13 +272,7 @@ END_NULL_IF:
 beq x0, x0, DELETE_NODE_LOOP
 END_DELETE_NODE_LOOP:
 
-add x5, x0, x0
-add x6, x0, x0
 add x7, x0, x0
-add x28, x0, x0
-add x29, x0, x0
-add x30, x0, x0
-add x31, x0, x0
 
 jalr x0, x1, 0
 
