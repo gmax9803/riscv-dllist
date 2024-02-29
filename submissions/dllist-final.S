@@ -225,7 +225,7 @@ DELETE_ELIF1:
 bne x7, x5, DELETE_ELIF2
 lw x6, 8(x7)    #x6 has curr_ptr->next_node
 sw x6, 0(x12)   #the_list->head_ptr = curr_ptr->next_node
-addi x6, x5, 4   #x6 has the_list->head_ptr->prev_node
+addi x6, x6, 4   #x6 has the_list->head_ptr->prev_node
 sw x0, 0(x6)    #the_list->head_ptr->prev_node = NULL
 beq x0, x0, END_DELETE_IF
 
@@ -233,7 +233,7 @@ DELETE_ELIF2:
 bne x7, x6, DELETE_ELSE
 lw x5, 4(x7)    #x5 has curr_ptr->prev_node
 sw x5, 4(x12)    #the_list->tail_ptr = curr_ptr->tail_node
-addi x5, x6, 8    #x5 has the_list->tail_ptr->next_node
+addi x5, x5, 8    #x5 has the_list->tail_ptr->next_node
 sw x0, 0(x5)    #the_list->tail_ptr->next_node = NULL
 beq x0, x0, END_DELETE_IF
 
