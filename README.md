@@ -12,6 +12,8 @@ The project was tested using [Cornell's RISC-V Interpreter](https://www.cs.corne
 
 The project received 1970/2000 possible points. The grading rubric can be found [here](https://1drv.ms/b/s!AqJFCYsmSa2bgrFGWqq6KhYCn6TiSg?e=5oet1s).
 
+The project was created for `CSE 30321: Computer Architecture` in the spring semester of 2024.
+
 ## Authors
 - [Max Graves](https://github.com/gmax9803)
 - [Aaron Lewis](https://github.com/aaron-m-lewis)
